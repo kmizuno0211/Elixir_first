@@ -1,4 +1,6 @@
-iex> data |> Enum.map( fn( record ) -> %{ "name" => record[ "name"], "age" => record[ "age" ] } end)
+iex> for record <- data do
+ %{ "name" => record[ "name"], "age" => record[ "age" ] }
+end
 
 
 
