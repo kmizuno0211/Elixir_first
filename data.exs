@@ -1,4 +1,5 @@
-data = [
-  %{ "name" => "みずの", "age" => 29, "team" => "有限会社デライトシステムズ", "ArtRiteLacy.jp" => "代表取締役、性能探求者" },
-  %{ "name" => "たろう", "age" => 21, "team" => "公立大学法人 北九州市立大学", "ArtRiteLacy.jp" => "准教授、カーネルハッカー" },
-  %{ "name" => "まめも", "age" => 34, "team" => "カラビナテクノロジー株式会社", "まめも" => "リードエンジニア、アプリマイスター" }, 
+iex> data = [
+  %{ "name" => "みずの", "age" => 29, "team" => "ArtRiteLacy.jp", "position" => "代表、音楽家" },
+  %{ "name" => "たろう", "age" => ??, "team" => "ArtRitelacy.jp", "position" => "デザイナー" },
+  %{ "name" => "まめも", "age" => ??, "team" => "??", "position" => "ご支援、みそランチャー" },
+]
